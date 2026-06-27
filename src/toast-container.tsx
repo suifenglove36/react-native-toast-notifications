@@ -4,8 +4,9 @@ import {
   ViewStyle,
   KeyboardAvoidingView,
   Platform,
-  Dimensions, SafeAreaView,
+  Dimensions,
 } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 import Toast, { ToastOptions, ToastProps } from "./toast";
 
 const { height, width } = Dimensions.get("window");
