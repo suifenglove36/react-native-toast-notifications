@@ -17,7 +17,8 @@
   "homepage": "https://github.com/arnnis/react-native-toast-notifications#readme",
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "react-native-safe-area-context": "*"
   },
   "devDependencies": {
     "@react-native-community/bob": "^0.16.2",
